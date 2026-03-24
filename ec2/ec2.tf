@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_security_group" "allow_tls" {
-  name        = "allow-all-terraform" # this is for AWS account
+  name        = "allow-all-terraform-change" # this is for AWS account
   description = "Allow TLS inbound traffic and all outbound traffic"
 
   egress {
@@ -31,5 +31,9 @@ resource "aws_security_group" "allow_tls" {
 
   tags = {
     Name = "allow-all-terraform"
+  }
+
+  lifecycle {
+    create_before_destroy = true
   }
 }
