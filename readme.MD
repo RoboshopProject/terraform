@@ -57,5 +57,7 @@ provisioners  can work when only create and desteoy time but its not on update t
 we can also pit on_failure = comtinue, even if any falut occured in executing the script
 
 34)))
+13. multienv : workspaces, terraform. tfvars, seperate repos
+14. terraform modules
 
 
