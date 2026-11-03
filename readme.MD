@@ -1,3 +1,4 @@
+
 # Terraform
 ![Terraform Setup](terraform.jpg)
 
@@ -28,7 +29,7 @@ We need to understand what are the advantages and problems terraform is solving.
 * **Modular Infra:** <br />
     We can develop our own modules or use open source modules to reuse the infra code. Any one can reuse our code and create infra instead of spending more time on their own.
 =======================================
-1.Ec2.tf
+31))) 1.Ec2.tf
 2. variable. tf
 3.conditions: var. environment =="dev"? "t3.micro" : "t3.small"
 4. Conditons : a) commamd line --> terraform apply -var = "key= value"
@@ -37,9 +38,15 @@ b)environment variables: --> export c)TF_VARS_instance_type = "t3.micro"
 d) variables folder
 
 
-5. loops
+5. loops -- count
   count: count. index, intepolation
    diff between list and set
     count is suitable to list and set/map suitable to for_each
+
+32))
+6. for_each : special variable each. key and each. value
+7. dtnamic block
+8.data sources
+9. functions
 
 
