@@ -38,4 +38,8 @@ d) variables folder
 
 
 5. loops
+  count: count. index, intepolation
+   diff between list and set
+    count is suitable to list and set/map suitable to for_each
+
 
