@@ -27,4 +27,15 @@ We need to understand what are the advantages and problems terraform is solving.
 
 * **Modular Infra:** <br />
     We can develop our own modules or use open source modules to reuse the infra code. Any one can reuse our code and create infra instead of spending more time on their own.
+=======================================
+1.Ec2.tf
+2. variable. tf
+3.conditions: var. environment =="dev"? "t3.micro" : "t3.small"
+4. Conditons : a) commamd line --> terraform apply -var = "key= value"
+  terraform. tfvars: key= value
+b)environment variables: --> export c)TF_VARS_instance_type = "t3.micro"
+d) variables folder
+
+
+5. loops
 
