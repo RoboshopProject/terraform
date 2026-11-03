@@ -48,5 +48,14 @@ d) variables folder
 7. dtnamic block
 8.data sources
 9. functions
+33)))
+10. state
+11. Locals. -- > values inside locals cant be overwrite
+12.provisioners - local-exec, remote-exec
+provisioners  can work when only create and desteoy time but its not on update time.. by default it has create, when can memtiomed like when = create/ destroy.. 
+
+we can also pit on_failure = comtinue, even if any falut occured in executing the script
+
+34)))
 
 
